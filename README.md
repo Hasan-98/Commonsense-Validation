@@ -1,4 +1,4 @@
-# Commonsense Validation and Explanation (ComVE)
+# Commonsense Validation and Explanation
 
 ## Introduction
 
