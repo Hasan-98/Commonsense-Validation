@@ -31,3 +31,11 @@ Select the most corresponding reason why this statement is against common sense.
 
 Subtask A and B will be evaluated using **accuracy**
 
+## Data format
+
+The file format for all two subtasks are csv.
+
+For subtask A, each row of the csv file contains 3 fields: `id`, `sent0`, `sent1`, which are the ID of the instance, and two input sentences. The output file contains no header, and each row contains the id and the index of the sentence which makes sense.
+
+For subtask B, each row of the csv file contains 5 fields: `id`, `FalseSent`, `OptionA`, `OptionB` , `OptionC`, which are the ID of the instance, the nonsensical sentence, and three reasons why the sentence does not make sense. The output contains no header, and each row contains the id and label of the correct reason.
+
